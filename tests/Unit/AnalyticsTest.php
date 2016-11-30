@@ -1,24 +1,24 @@
 <?php
 
-namespace Spatie\Analytics\Tests;
+namespace developeruz\Analytics\Tests;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Mockery;
 use PHPUnit_Framework_TestCase;
-use Spatie\Analytics\Analytics;
-use Spatie\Analytics\AnalyticsClient;
-use Spatie\Analytics\Period;
+use developeruz\Analytics\Analytics;
+use developeruz\Analytics\AnalyticsClient;
+use developeruz\Analytics\Period;
 
 class AnalyticsTest extends PHPUnit_Framework_TestCase
 {
-    /** @var \Spatie\Analytics\AnalyticsClient|\Mockery\Mock */
+    /** @var \developeruz\Analytics\AnalyticsClient|\Mockery\Mock */
     protected $analyticsClient;
 
     /** @var string */
     protected $viewId;
 
-    /** @var \Spatie\Analytics\Analytics */
+    /** @var \developeruz\Analytics\Analytics */
     protected $analytics;
 
     /** @var \Carbon\Carbon */

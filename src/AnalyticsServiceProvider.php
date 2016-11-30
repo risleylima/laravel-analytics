@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Analytics;
+namespace developeruz\Analytics;
 
 use Illuminate\Support\ServiceProvider;
-use Spatie\Analytics\Exceptions\InvalidConfiguration;
+use developeruz\Analytics\Exceptions\InvalidConfiguration;
 
 class AnalyticsServiceProvider extends ServiceProvider
 {
@@ -42,7 +42,7 @@ class AnalyticsServiceProvider extends ServiceProvider
     /**
      * @param array|null $analyticsConfig
      *
-     * @throws \Spatie\Analytics\Exceptions\InvalidConfiguration
+     * @throws \developeruz\Analytics\Exceptions\InvalidConfiguration
      */
     protected function guardAgainstInvalidConfiguration($analyticsConfig)
     {

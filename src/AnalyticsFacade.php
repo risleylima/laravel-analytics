@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Analytics;
+namespace developeruz\Analytics;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Spatie\Analytics\Analytics
+ * @see \developeruz\Analytics\Analytics
  */
 class AnalyticsFacade extends Facade
 {

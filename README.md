@@ -1,19 +1,11 @@
-#  Retrieve data from Google Analytics
-
-[![Latest Version](https://img.shields.io/github/release/spatie/laravel-analytics.svg?style=flat-square)](https://github.com/spatie/laravel-analytics/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/spatie/laravel-analytics/master.svg?style=flat-square)](https://travis-ci.org/spatie/laravel-analytics)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/laravel-analytics.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/laravel-analytics)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/22e652a0-01c0-4b8c-9ada-c9ba5cba17c7.svg?style=flat-square)](https://insight.sensiolabs.com/projects/22e652a0-01c0-4b8c-9ada-c9ba5cba17c7)
-[![StyleCI](https://styleci.io/repos/32067087/shield)](https://styleci.io/repos/32067087)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-analytics.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-analytics)
+#  Retrieve data from Google Analytics (php5 compatibility version)
 
 Using this package you can easily retrieve data from Google Analytics.
 
 Here are a few examples of the provided methods:
 
 ```php
-use Spatie\Analytics\Period;
+use developeruz\Analytics\Period;
 
 //fetch the most visited pages for today and the past week
 Analytics::fetchMostVisitedPages(Period::days(7));
@@ -24,22 +16,12 @@ Analytics::fetchVisitorsAndPageViews(Period::days(7));
 
 Most methods will return an `\Illuminate\Support\Collection` object containing the results.
 
-Spatie is a webdesign agency in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
-
-## Postcardware
-
-You're free to use this package (it's [MIT-licensed](LICENSE.md)), but if it makes it to your production environment you are required to send us a postcard from your hometown, mentioning which of our package(s) you are using.
-
-Our address is: Spatie, Samberstraat 69D, 2060 Antwerp, Belgium.
-
-The best postcards will get published on the open source page on our website.
-
 ## Install
 
 This package can be installed through Composer.
 
 ``` bash
-composer require spatie/laravel-analytics
+composer require developeruz/laravel-analytics
 ```
 
 You must install this service provider.
@@ -48,7 +30,7 @@ You must install this service provider.
 // config/app.php
 'providers' => [
     ...
-    Spatie\Analytics\AnalyticsServiceProvider::class,
+    developeruz\Analytics\AnalyticsServiceProvider::class,
     ...
 ];
 ```
@@ -59,7 +41,7 @@ This package also comes with a facade, which provides an easy way to call the th
 // config/app.php
 'aliases' => [
     ...
-    'Analytics' => Spatie\Analytics\AnalyticsFacade::class,
+    'Analytics' => developeruz\Analytics\AnalyticsFacade::class,
     ...
 ];
 ```
@@ -67,7 +49,7 @@ This package also comes with a facade, which provides an easy way to call the th
 You can publish the config file of this package with this command:
 
 ``` bash
-php artisan vendor:publish --provider="Spatie\Analytics\AnalyticsServiceProvider"
+php artisan vendor:publish --provider="developeruz\Analytics\AnalyticsServiceProvider"
 ```
 
 The following config file will be published in `config/laravel-analytics.php`
@@ -239,9 +221,6 @@ If you discover any security related issues, please email freek@spatie.be instea
 
 - [Freek Van der Herten](https://github.com/freekmurze)
 - [All Contributors](../../contributors)
-
-## About Spatie
-Spatie is a webdesign agency in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
 
 ## License
 
