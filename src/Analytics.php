@@ -1,6 +1,6 @@
 <?php
 
-namespace developeruz\Analytics;
+namespace risleylima\Analytics;
 
 use Carbon\Carbon;
 use Google_Service_Analytics;
@@ -11,14 +11,14 @@ class Analytics
 {
     use Macroable;
 
-    /** @var \developeruz\Analytics\AnalyticsClient */
+    /** @var \risleylima\Analytics\AnalyticsClient */
     protected $client;
 
     /** @var string */
     protected $viewId;
 
     /**
-     * @param \developeruz\Analytics\AnalyticsClient $client
+     * @param \risleylima\Analytics\AnalyticsClient $client
      * @param string                            $viewId
      */
     public function __construct(AnalyticsClient $client, $viewId)

@@ -1,11 +1,11 @@
 <?php
 
-namespace developeruz\Analytics\Tests;
+namespace risleylima\Analytics\Tests;
 
 use Carbon\Carbon;
 use PHPUnit_Framework_TestCase;
-use developeruz\Analytics\Exceptions\InvalidPeriod;
-use developeruz\Analytics\Period;
+use risleylima\Analytics\Exceptions\InvalidPeriod;
+use risleylima\Analytics\Period;
 
 class PeriodTest extends PHPUnit_Framework_TestCase
 {

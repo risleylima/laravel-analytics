@@ -1,24 +1,24 @@
 <?php
 
-namespace developeruz\Analytics\Tests;
+namespace risleylima\Analytics\Tests;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Mockery;
 use PHPUnit_Framework_TestCase;
-use developeruz\Analytics\Analytics;
-use developeruz\Analytics\AnalyticsClient;
-use developeruz\Analytics\Period;
+use risleylima\Analytics\Analytics;
+use risleylima\Analytics\AnalyticsClient;
+use risleylima\Analytics\Period;
 
 class AnalyticsTest extends PHPUnit_Framework_TestCase
 {
-    /** @var \developeruz\Analytics\AnalyticsClient|\Mockery\Mock */
+    /** @var \risleylima\Analytics\AnalyticsClient|\Mockery\Mock */
     protected $analyticsClient;
 
     /** @var string */
     protected $viewId;
 
-    /** @var \developeruz\Analytics\Analytics */
+    /** @var \risleylima\Analytics\Analytics */
     protected $analytics;
 
     /** @var \Carbon\Carbon */

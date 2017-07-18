@@ -1,6 +1,6 @@
 <?php
 
-namespace developeruz\Analytics;
+namespace risleylima\Analytics;
 
 use DateTime;
 use Google_Service_Analytics;
@@ -78,6 +78,6 @@ class AnalyticsClient
      */
     protected function determineCacheName(array $properties)
     {
-        return 'developeruz.laravel-analytics.'.md5(serialize($properties));
+        return 'risleylima.laravel-analytics.'.md5(serialize($properties));
     }
 }

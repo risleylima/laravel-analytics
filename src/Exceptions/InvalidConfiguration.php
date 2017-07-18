@@ -1,6 +1,6 @@
 <?php
 
-namespace developeruz\Analytics\Exceptions;
+namespace risleylima\Analytics\Exceptions;
 
 use Exception;
 

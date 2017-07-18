@@ -1,10 +1,10 @@
 <?php
 
-namespace developeruz\Analytics\Tests\Integration;
+namespace risleylima\Analytics\Tests\Integration;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use developeruz\Analytics\AnalyticsFacade;
-use developeruz\Analytics\AnalyticsServiceProvider;
+use risleylima\Analytics\AnalyticsFacade;
+use risleylima\Analytics\AnalyticsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

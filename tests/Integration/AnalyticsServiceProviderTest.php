@@ -1,10 +1,10 @@
 <?php
 
-namespace developeruz\Analytics\Tests\Integration;
+namespace risleylima\Analytics\Tests\Integration;
 
 use Analytics;
 use Carbon\Carbon;
-use developeruz\Analytics\Exceptions\InvalidConfiguration;
+use risleylima\Analytics\Exceptions\InvalidConfiguration;
 
 class AnalyticsServiceProviderTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace developeruz\Analytics;
+namespace risleylima\Analytics;
 
 use Carbon\Carbon;
 use DateTime;
-use developeruz\Analytics\Exceptions\InvalidPeriod;
+use risleylima\Analytics\Exceptions\InvalidPeriod;
 
 class Period
 {

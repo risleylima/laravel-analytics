@@ -1,6 +1,6 @@
 <?php
 
-namespace developeruz\Analytics;
+namespace risleylima\Analytics;
 
 use Google_Client;
 use Google_Service_Analytics;

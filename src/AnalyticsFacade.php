@@ -1,11 +1,11 @@
 <?php
 
-namespace developeruz\Analytics;
+namespace risleylima\Analytics;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \developeruz\Analytics\Analytics
+ * @see \risleylima\Analytics\Analytics
  */
 class AnalyticsFacade extends Facade
 {

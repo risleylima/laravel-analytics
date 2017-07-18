@@ -5,7 +5,7 @@ Using this package you can easily retrieve data from Google Analytics.
 Here are a few examples of the provided methods:
 
 ```php
-use developeruz\Analytics\Period;
+use risleylima\Analytics\Period;
 
 //fetch the most visited pages for today and the past week
 Analytics::fetchMostVisitedPages(Period::days(7));
@@ -21,7 +21,7 @@ Most methods will return an `\Illuminate\Support\Collection` object containing t
 This package can be installed through Composer.
 
 ``` bash
-composer require developeruz/laravel-analytics
+composer require risleylima/laravel-analytics
 ```
 
 You must install this service provider.
@@ -30,7 +30,7 @@ You must install this service provider.
 // config/app.php
 'providers' => [
     ...
-    developeruz\Analytics\AnalyticsServiceProvider::class,
+    risleylima\Analytics\AnalyticsServiceProvider::class,
     ...
 ];
 ```
@@ -41,7 +41,7 @@ This package also comes with a facade, which provides an easy way to call the th
 // config/app.php
 'aliases' => [
     ...
-    'Analytics' => developeruz\Analytics\AnalyticsFacade::class,
+    'Analytics' => risleylima\Analytics\AnalyticsFacade::class,
     ...
 ];
 ```
@@ -49,7 +49,7 @@ This package also comes with a facade, which provides an easy way to call the th
 You can publish the config file of this package with this command:
 
 ``` bash
-php artisan vendor:publish --provider="developeruz\Analytics\AnalyticsServiceProvider"
+php artisan vendor:publish --provider="risleylima\Analytics\AnalyticsServiceProvider"
 ```
 
 The following config file will be published in `config/laravel-analytics.php`

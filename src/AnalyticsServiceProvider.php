@@ -1,9 +1,9 @@
 <?php
 
-namespace developeruz\Analytics;
+namespace risleylima\Analytics;
 
 use Illuminate\Support\ServiceProvider;
-use developeruz\Analytics\Exceptions\InvalidConfiguration;
+use risleylima\Analytics\Exceptions\InvalidConfiguration;
 
 class AnalyticsServiceProvider extends ServiceProvider
 {
@@ -42,7 +42,7 @@ class AnalyticsServiceProvider extends ServiceProvider
     /**
      * @param array|null $analyticsConfig
      *
-     * @throws \developeruz\Analytics\Exceptions\InvalidConfiguration
+     * @throws \risleylima\Analytics\Exceptions\InvalidConfiguration
      */
     protected function guardAgainstInvalidConfiguration($analyticsConfig)
     {

@@ -1,5 +1,5 @@
 {
-  "name": "developeruz/laravel-analytics",
+  "name": "risleylima/laravel-analytics",
   "description": "A Laravel 5 package to retrieve Google Analytics data. (PHP v5.4)",
   "keywords": [
     "google",
@@ -8,7 +8,7 @@
     "reports",
     "laravel"
   ],
-  "homepage": "https://github.com/developeruz/laravel-analytics",
+  "homepage": "https://github.com/risleylima/laravel-analytics",
   "license": "MIT",
   "authors": [
     {
@@ -20,8 +20,8 @@
   ],
   "require": {
     "php" : "^5.4 || ^7.0",
-    "illuminate/contracts": "~5.1.0|~5.2.0|~5.3.0",
-    "illuminate/support": "~5.1.0|~5.2.0|~5.3.0",
+    "illuminate/contracts": "~5.1.0|~5.2.0|~5.3.0|~5.4.0",
+    "illuminate/support": "~5.1.0|~5.2.0|~5.3.0|~5.4.0",
     "google/apiclient" : "^1.1",
     "nesbot/carbon": "^1.21"
 
@@ -34,12 +34,12 @@
   },
   "autoload": {
     "psr-4": {
-      "developeruz\\Analytics\\": "src"
+      "risleylima\\Analytics\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "developeruz\\Analytics\\Tests\\": "tests"
+      "risleylima\\Analytics\\Tests\\": "tests"
     }
   }
 }
